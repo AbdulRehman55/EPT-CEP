@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="EPT-CEP.exe" version="1.0.0.4" publicKeyToken="3b44ab9878914acf" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="EPT-CEP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="EPT-CEP.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EPT-CEP.exe" size="859648">
+      <assemblyIdentity name="EPT-CEP" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>i3bhqGRlF+urtZXVNVVc/5FasSMulzPOzt0WDelXVF8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="EPT-CEP.exe.config" size="187">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>xm4bo26HQ0LNVwz1vdPYtzhkpMnp2AI5i+f0b+OahTI=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-9J6P9SD\Abdul Rehman" issuerKeyHash="566f0f488f44cc1949df04d667c32249d5435a94" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Sjmz7JqaWvzhaJBcYLw8AtxgaSpd7ro3QLKyig2btP0=</DigestValue></Reference></SignedInfo><SignatureValue>XqIH0pLbZM9Yb9xJEfzjUhm7RygEsJIMCM3JT9vTFk4b4FDAp6qjJGrm1uyhIdfsLEjm7cdjGx8fSdVtaOmQJRS17Bikua7+CoLN1GBlqwcO2VPK8ECnSatjqurXigKUYVZdFpYxfMJ12+v722NA6cQanfudHrpu4/uX/jAMKt0=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>wLF5A5rVDeDXAqqsWhi8flST/n7gKvk5VgjG8wNxxTi5voumiuLb3zI8AyBxaMHg/Jte0CcV6egP7GWB8UQP1BUyLbnU7eyCEoa60QHTVIeE2WRNvvskEMwKuRszXBndJ78UGLj05S+RmrTTpjcCf1wNh90aJTlSG/6xtHw+ijE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fdb49b0d8ab2b24037baee5d2a6960dc023cbc605c9068e1fc5a9a9aecb3394a" Description="" Url=""><as:assemblyIdentity name="EPT-CEP.exe" version="1.0.0.4" publicKeyToken="3b44ab9878914acf" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-9J6P9SD\Abdul Rehman</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>YCSg8Uz23WuaYVM2qyWUgXf7q2fnHM1mDH50HVt43v8=</DigestValue></Reference></SignedInfo><SignatureValue>DdS5Uxa0Tq6qEvzH1nwpjsaGF8uoxW2l4j//cVg1omhr8CGmgIbDCj0D/a6Bnhi1h5e+Xf16zyXIKP0xraYvsw8E7auuMZDz88tikGubahZHdkM4b6Qv5t66E+SfKUAcYLWU9jWuZouARDzammxsuUMsXQztXO7aE7Rd4NZ9gFE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>wLF5A5rVDeDXAqqsWhi8flST/n7gKvk5VgjG8wNxxTi5voumiuLb3zI8AyBxaMHg/Jte0CcV6egP7GWB8UQP1BUyLbnU7eyCEoa60QHTVIeE2WRNvvskEMwKuRszXBndJ78UGLj05S+RmrTTpjcCf1wNh90aJTlSG/6xtHw+ijE=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICCTCCAXKgAwIBAgIQQv954qtHmIVLBVqCV8IK7zANBgkqhkiG9w0BAQsFADBDMUEwPwYDVQQDHjgARABFAFMASwBUAE8AUAAtADkASgA2AFAAOQBTAEQAXABBAGIAZAB1AGwAIABSAGUAaABtAGEAbjAeFw0yMDA5MDQyMzEyMzRaFw0yMTA5MDUwNTEyMzRaMEMxQTA/BgNVBAMeOABEAEUAUwBLAFQATwBQAC0AOQBKADYAUAA5AFMARABcAEEAYgBkAHUAbAAgAFIAZQBoAG0AYQBuMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDAsXkDmtUN4NcCqqxaGLx+VJP+fuAq+TlWCMbzA3HFOLm+i6aK4tvfMjwDIHFoweD8m17QJxXp6A/sZYHxRA/UFTItudTt7IIShrrRAdNUh4TZZE2++yQQzAq5GzNcGd0nvxQYuPTlL5GatNOmNwJ/XA2H3RolOVIb/rG0fD6KMQIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAIy6OFxJdrYyzKzhyF15uhTsWl9zg8YaqbQ5jwG4i6mGTuynwh7GL9RpJZ0VJoEnepW0Ae00nxG4Tyv8O2B097/0sumt82Dea7EHC83/Hv5E4ayroGurZUsUevYDgXXtDB+K4oscuQjO1xkzPnuGukKNLpfWJg2b2x7iO0V6TaeD</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
